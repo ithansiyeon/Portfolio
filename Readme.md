@@ -1,6 +1,6 @@
 # SIYEON HAN's Portfolio
 
-**한시연의 포트폴리오 | [▶ Preview](https://ithansiyeon.github.io/Portfolio1)** 
+**한시연의 포트폴리오 | [▶ Preview](https://ithansiyeon.github.io/portfolio1/)** 
 
 ![SIYEON HAN's Portfolio](https://user-images.githubusercontent.com/66079830/91710186-d189bd00-ebbe-11ea-872b-685c8ec763d4.png)
 
