@@ -63,12 +63,12 @@ Git Pages와 HTML5, CSS3, JavaScript를 이용한 싱글페이지 포트폴리�
     </tr>
         <tr>
         <th>My Portfolio</th>
-        <th>Portfolio Summary</th>
+        <th>My Portfolio Summary</th>
         <th>Contact</th>
     </tr>
     <tr>
         <td><img width="300" height="250" src="https://user-images.githubusercontent.com/66079830/91708011-a0f45400-ebbb-11ea-996e-6e4e48df0a2a.png"></td>
-        <td><img width="300" height="250" src="https://user-images.githubusercontent.com/66079830/91708081-c4b79a00-ebbb-11ea-86c5-9f74e9a8686d.png"></td>
+        <td><img width="300" height="250" src="https://user-images.githubusercontent.com/66079830/91708011-a0f45400-ebbb-11ea-996e-6e4e48df0a2a.png"></td>
         <td><img width="300" height="250" src="https://user-images.githubusercontent.com/66079830/91708109-ce410200-ebbb-11ea-9f23-c4f3ee72595d.png"></td>
     </tr>
     <tr>
