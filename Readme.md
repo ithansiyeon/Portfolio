@@ -2,7 +2,7 @@
 
 **한시연의 포트폴리오 | [▶ Preview](https://ithansiyeon.github.io/Portfolio1/)** 
 
-![SIYEON HAN's Portfolio](https://user-images.githubusercontent.com/66079830/91707810-5b378b80-ebbb-11ea-9147-c51e70a37da4.png)
+![SIYEON HAN's Portfolio](https://user-images.githubusercontent.com/66079830/91710186-d189bd00-ebbe-11ea-872b-685c8ec763d4.png)
 
 ### 👋 Introduction
 
