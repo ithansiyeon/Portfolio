@@ -2,7 +2,7 @@
 
 **한시연의 포트폴리오 | [▶ Preview](https://ithansiyeon.github.io/portfolio1/)** 
 
-![SIYEON HAN's Portfolio](https://user-images.githubusercontent.com/66079830/90414723-1ad00c00-e0eb-11ea-9e81-0cc4a61bc5f9.png)
+![SIYEON HAN's Portfolio](https://user-images.githubusercontent.com/66079830/91707810-5b378b80-ebbb-11ea-9147-c51e70a37da4.png)
 
 ### 👋 Introduction
 
@@ -53,23 +53,26 @@ Git Pages와 HTML5, CSS3, JavaScript를 이용한 싱글페이지 포트폴리�
 <table>
     <tr>
         <th>About</th>
-        <th>Eduction</th>
-        <th>Skills</th>
+        <th>My Skills</th>
+        <th>My Services</th>
     </tr>
     <tr>
-        <td><img width="300" height="250" src="https://user-images.githubusercontent.com/66079830/90415223-c2e5d500-e0eb-11ea-8680-ac3b947616de.png"></td>
-        <td><img width="300" height="250" src="https://user-images.githubusercontent.com/66079830/90416021-e1989b80-e0ec-11ea-93a5-7c217038deca.png"></td>
-        <td><img width="300" height="250" src="https://user-images.githubusercontent.com/66079830/90416100-ff660080-e0ec-11ea-968f-2f6a64da2bf0.png"></td>
+        <td><img width="300" height="250" src="https://user-images.githubusercontent.com/66079830/91707855-68ed1100-ebbb-11ea-8806-a2f7c5d6f229.png"></td>
+        <td><img width="300" height="250" src="https://user-images.githubusercontent.com/66079830/91707895-74d8d300-ebbb-11ea-82ed-b3ee2b431a54.png"></td>
+        <td><img width="300" height="250" src="https://user-images.githubusercontent.com/66079830/91707951-8b7f2a00-ebbb-11ea-8012-22b05f67a4b3.png"></td>
     </tr>
         <tr>
-        <th>What I do?</th>
-        <th>Work</th>
+        <th>My Portfolio</th>
+        <th>Portfolio Summary</th>
         <th>Contact</th>
     </tr>
     <tr>
-        <td><img width="300" height="250" src="https://user-images.githubusercontent.com/66079830/90416136-0bea5900-e0ed-11ea-9f9a-a5a2d0c6e3d7.png"></td>
-        <td><img width="300" height="250" src="https://user-images.githubusercontent.com/66079830/90416179-1ad10b80-e0ed-11ea-9c19-30b457f8b77e.png"></td>
-        <td><img width="300" height="250" src="https://user-images.githubusercontent.com/66079830/90416260-363c1680-e0ed-11ea-9894-97f8792e7c44.png"></td>
+        <td><img width="300" height="250" src="https://user-images.githubusercontent.com/66079830/91708011-a0f45400-ebbb-11ea-996e-6e4e48df0a2a.png"></td>
+        <td><img width="300" height="250" src="https://user-images.githubusercontent.com/66079830/91708081-c4b79a00-ebbb-11ea-86c5-9f74e9a8686d.png"></td>
+        <td><img width="300" height="250" src="https://user-images.githubusercontent.com/66079830/91708109-ce410200-ebbb-11ea-9f23-c4f3ee72595d.png"></td>
+    </tr>
+    <tr rowspan="3">
+        <td><img width="900" height="250" src="https://user-images.githubusercontent.com/66079830/91708146-dc8f1e00-ebbb-11ea-9225-335047166d97.png"></td>
     </tr>
 </table>
 
