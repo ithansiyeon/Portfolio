@@ -1,8 +1,8 @@
 # SIYEON HAN's Portfolio
 
-**한시연의 포트폴리오 | [▶ Preview](https://ithansiyeon.github.io/portfolio1/)** 
+**한시연의 포트폴리오 | [▶ Preview](https://ithansiyeon.github.io/Portfolio1/)** 
 
-![SIYEON HAN's Portfolio](https://user-images.githubusercontent.com/66079830/91707810-5b378b80-ebbb-11ea-9147-c51e70a37da4.png)
+![SIYEON HAN's Portfolio](https://user-images.githubusercontent.com/66079830/91710186-d189bd00-ebbe-11ea-872b-685c8ec763d4.png)
 
 ### 👋 Introduction
 
@@ -67,7 +67,7 @@ Git Pages와 HTML5, CSS3, JavaScript를 이용한 싱글페이지 포트폴리�
         <th>Contact</th>
     </tr>
     <tr>
-        <td><img width="300" height="250" src="https://user-images.githubusercontent.com/66079830/91708011-a0f45400-ebbb-11ea-996e-6e4e48df0a2a.png"></td>
+        <td><img width="300" height="250" src="https://user-images.githubusercontent.com/66079830/91710398-2594a180-ebbf-11ea-8c0c-2850ea52c9e8.png"></td>
         <td><img width="300" height="250" src="https://user-images.githubusercontent.com/66079830/91709252-73100f00-ebbd-11ea-8ef6-f36438163570.png"></td>
         <td><img width="300" height="250" src="https://user-images.githubusercontent.com/66079830/91708109-ce410200-ebbb-11ea-9f23-c4f3ee72595d.png"></td>
     </tr>
