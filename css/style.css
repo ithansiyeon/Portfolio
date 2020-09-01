@@ -400,7 +400,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  /* padding: 60px 0; */
 }
 
 .section-bg {
@@ -543,9 +543,9 @@ section {
   color: #FFAAA5;
 }
 
-.about .content .count-box {
+/* .about .content .count-box {
   width: 100%;
-}
+} */
 
 .about .content .count-box i {
   display: block;
@@ -586,9 +586,10 @@ section {
 }
 
 .about .image {
-  background: url("../images/me1.jpg") center center no-repeat;
-  background-size: cover;
-  min-height: 500px;
+  background: url("../images/me1.jpg") center center no-repeat; 
+  /* background-size: cover; */
+  /* position: relative; */
+  /* min-height: 500px; */
 }
 
 .myskill .skills-content {
@@ -1030,6 +1031,10 @@ section {
     position: static;
     margin-top: 30px;
   }
+}
+.img-fluid {
+  width: 400px;
+  height: 300px;
 }
 
 /*--------------------------------------------------------------

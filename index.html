@@ -27,12 +27,6 @@
   <!-- Template Main CSS File -->
   <link href="./css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Laura - v2.1.0
-  * Template URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 <style> 
   #logo{
@@ -47,6 +41,14 @@
 
   .title{
     color:#F38181;
+  }
+
+  .section-title{
+    margin-top: 60px;
+  }
+
+  table tr:nth-child(1){
+    background-color: #ECECEC;
   }
 
 </style>
@@ -64,6 +66,7 @@
         <!-- <li><a href=#education>Education</a></li> -->
         <li><a href="#services">Services</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#Summary">Summary</a></li>
         <li><a href="#contact">Contact</a></li>
 
       </ul>
@@ -90,13 +93,13 @@
           <h2>About Me</h2>
           <p>웹 개발에 관심을 갖게 된 계기는, 즐겨 찾는 옷 쇼핑몰 웹 페이지의 깔끔한 UI와 다양한 서비스를 경험하고 특히 주문 시의 편리함을 느끼게 되었을 때부터였습니다. 저도 고객에게 편리함과 만족을 주는 웹 개발자가 되고 싶다는 생각을 하게 되었습니다.</p>
         </div>
-
-        <div class="row">
-          <div class="image col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div>
+        
+        <div class="row" style="height: 730px;">
+          <!-- <div style="width: 100px;height: 200px;" class="image col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div> -->
           <div class="col-lg-8 d-flex flex-column align-items-stretch">
-            <div class="content pl-lg-4 d-flex flex-column justify-content-center">
-              <div class="row">
-                <div class="col-lg-6">
+            <div class="content pl-lg-4 d-flex flex-column justify-content-center" style="margin-left: 80px;">
+              <div class="row" class="col-lg-6" style="width: 1000px;">
+                <div style="margin-right: 20px;">
                   <ul>
                     <li><i class="icofont-rounded-right"></i> <strong>Name:</strong> Si Yeon Han</li>
                     <li><i class="icofont-rounded-right"></i> <strong>University :</strong> 가톨릭대학교</li>
@@ -105,7 +108,7 @@
                     <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Seoul, Republic of Korea</li>
                   </ul>
                 </div>
-                <div class="col-lg-6">
+                 <div style="margin-right: 20px;">
                   <ul>
                     <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 24</li>
                     <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> master</li>
@@ -115,12 +118,24 @@
                       System Development</li>
                   </ul>
                 </div>
-              </div>
-              <div class="row mt-n4">
+                <div>
+                  <ul>
+                    <li><i class="icofont-rounded-right"></i> <strong>Hobby : </strong> 영화보기</li>
+                    <li><i class="icofont-rounded-right"></i> <strong>Date of Birth : </strong> 1997-01-21</li>
+                    <li><i class="icofont-rounded-right"></i> <strong>Special skill : </strong> 컴퓨터활용능력</li>
+                    <li><i class="icofont-rounded-right"></i> <strong>  Desired salary :</strong> 회사내규에 따름</li>
+                    <li><i class="icofont-rounded-right"></i> <strong> High school :</strong> 
+                      잠실여자고등학교</li>
+                  </ul>
+                </div>
+              </div> 
+              
+              <div style="width: 250px;height: 420px; position: relative;left: -100px;top: 60px;" class="image"></div>
+              <div class="row mt-n4" style="width: 1000px;margin-left: 170px;position: relative;top: -430px;">
                 <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
                   <div class="count-box">
                     <i class="icofont-hat-alt" style="color: #20b38e;"></i>
-                    <span data-toggle="counter-up">3</span>
+                    <span style="font-size: 1.3em;font-weight: bold;">3번의 교육</span>
                     <p><strong>Education</strong><br> - 쌍용교육센터<br>[2020-04-06 ~ 2020-09-18] <br> Java 기반 멀티 플랫폼 응용 SW개발자 양성 과정<br>
                     - 가톨릭대학교<br> 정보통신전자공학부<br>[2016-03-02 ~ 2020-02-16]<br> 
                     - KG ITBANK<br>[2019-03-16 ~ 2019-04-07]<br>네트워크 기초
@@ -131,7 +146,7 @@
                 <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
                   <div class="count-box">
                     <i class="icofont-document-folder" style="color: #8a1ac2;"></i>
-                    <span data-toggle="counter-up">7</span>
+                    <span style="font-size: 1.3em;font-weight: bold;">7번의 프로젝트</span>
                     <p><strong>Projects</strong><br>1. AtTicket 티켓 웹사이트 구현<br>2. JDBC + Oracle - 학원관리시스템<br>3. JDBC + Oracle - 지하철 관리 시스템<br>4. Java 콘솔 - 학원관리시스템<br>5. Matlab - ECC 암복화 구현 <br>6. Java + Android - RSA와 TCP 형식의 채팅 프로그램<br>7. Matlab - (2,1,4) 길쌈부호기의 경판정과 연판정 구현</p>
                   </div>
                 </div>
@@ -139,7 +154,7 @@
                 <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
                   <div class="count-box">
                     <i class="icofont-world" style="color: #2cbdee;"></i>
-                    <span data-toggle="counter-up">4</span>
+                    <span style="font-size: 1.3em;font-weight: bold;">4번의 경험</span>
                     <p><strong>Experience</strong><br>연구실 : 통신네트워크 연구실에서 연구생 [2020.03 ~ 2020.12]<br>동아리 : 코마IT 동아리에서 활동 <br>[2016.03- ~ 2019.12]<br>공모전 : 수원 ICT 아이디어 공모전 참가<br> [2018-04 ~ 2018.04 (2주)]<br>봉사활동 : 서울동부고육센터 데스크 봉사활동 [2017-08 ~ 2017.09]</p>
                   </div>
                 </div>
@@ -147,7 +162,7 @@
                 <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
                   <div class="count-box">
                     <i class="icofont-license" style="color: #ffb459;"></i>
-                    <span data-toggle="counter-up">6</span>
+                    <span style="font-size: 1.3em;font-weight: bold;">6번의 자격증</span>
                     <p><strong>Certificate</strong><br>정보처리기사 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2019-11-22]<br>네트워크관리사 2급 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2019-05-21]<br>컴퓨터활용능력 1급(필기) &nbsp;&nbsp;[2019-09-16]<br>컴퓨터활용능력 2급 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2019-02-22]</p>
                     <p><strong>Language</strong><br>TOEIC(810) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2019-09-07]<br>OPIC(IM2) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2019-03-16]</p>
                   </div>
@@ -254,7 +269,7 @@
           <li>시각 효과</li>
         </ul>
       </div>
-      <h3 style="margin-bottom: -10px;padding-top:10px;">기타</h3>
+      <h3 style="text-align:center;margin-top: 50px;padding-top:10px;">기타</h3>
       <div class="progress">
         <span class="skill">Matlab <img style="display:inline-block;padding-left: 20px;" src="./images/matlab.png"><i
             class="val">80%</i></span>
@@ -527,7 +542,7 @@
           <li style="line-height: 100%;">TCP 통신으로 RSA 암호화를 하여 채팅 프로그래밍을<br> 만들었습니다.</li>
         </ul>
       </div>
-      <h3 style="text-align: center;">DataBase</h3>
+      <h3 style="margin-top: 50px; text-align: center;">DataBase</h3>
       <div class="progress">
         <span class="skill">Oracle <img style="display:inline-block;padding-left: 20px;" src="./images/oracle.png"><i
             class="val">100%</i></span>
@@ -567,7 +582,7 @@
           <li>함수, 커서, rownum</li>
         </ul>
       </div>
-      <h3 style="text-align:center;width: 300px;">Back-end</h3>
+      <h3 style="text-align:center;width: 300px; margin-top: 50px;">Back-end</h3>
       <div class="progress">
         <span class="skill">JSP/SERVLET <img style="display:inline-block;padding-left: 20px;width: 100px;" src="./images/back5.png"><i
             class="val">100%</i></span>
@@ -832,81 +847,81 @@
         <div class="row portfolio-container">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-java">
-            <div class="portfolio-img"><a class="scroll" href = "#cms"><img src="./images/포트폴리오1.png" class="img-fluid" alt=""></a></div>
+            <div class="portfolio-img"><a class="scroll" href = "#cms"><img src="./images/포트폴리오11.png" class="img-fluid" alt=""></a></div>
             <div class="portfolio-info">
               <h4>학원 회원관리시스템</h4>
               <p>JAVA</p>
-              <a href="./images/포트폴리오1.png" data-gall="portfolioGallery" class="venobox preview-link" title="학원 회원관리시스템"><i class="bx bx-plus"></i></a>
+              <a href="./images/포트폴리오11.png" data-gall="portfolioGallery" class="venobox preview-link" title="학원 회원관리시스템"><i class="bx bx-plus"></i></a>
               <a href="https://github.com/ithansiyeon/Center-Management-System" class="details-link" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><a href="#At-Ticket" class="scroll"><img src="./images/AtTicket.png" class="img-fluid" alt=""></a></div>
+            <div class="portfolio-img"><a href="#At-Ticket" class="scroll"><img src="./images/AtTicket1.png" class="img-fluid" alt=""></a></div>
             <div class="portfolio-info">
               <h4>At-Ticket</h4>
               <p>WEB</p>
-              <a href="./images/AtTicket.png" data-gall="portfolioGallery" class="venobox preview-link" title="At-Ticket"><i class="bx bx-plus"></i></a>
+              <a href="./images/AtTicket1.png" data-gall="portfolioGallery" class="venobox preview-link" title="At-Ticket"><i class="bx bx-plus"></i></a>
               <a href="https://github.com/ithansiyeon/At-Ticket" class="details-link" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-java">
-            <div class="portfolio-img"><a href = "#lmsjoo" class="scroll"><img src="./images/포트폴리오2.png" class="img-fluid" alt=""></a></div>
+            <div class="portfolio-img"><a href = "#lmsjoo" class="scroll"><img src="./images/포트폴리오21.png" class="img-fluid" alt=""></a></div>
             <div class="portfolio-info">
               <h4>학원 관리시스템</h4>
               <p>JDBC</p>
-              <a href="./images/포트폴리오2.png" data-gall="portfolioGallery" class="venobox preview-link" title="학원 관리시스템"><i class="bx bx-plus"></i></a>
+              <a href="./images/포트폴리오21.png" data-gall="portfolioGallery" class="venobox preview-link" title="학원 관리시스템"><i class="bx bx-plus"></i></a>
               <a href="https://github.com/ithansiyeon/SIST-Center" class="details-link" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-java">
-            <div class="portfolio-img"><a href="#subway" class="scroll"><img src="./images/Subway.png" class="img-fluid" alt=""></a></div>
+            <div class="portfolio-img"><a href="#subway" class="scroll"><img src="./images/Subway1.png" class="img-fluid" alt=""></a></div>
             <div class="portfolio-info">
               <h4>지하철 관리시스템</h4>
               <p>JDBC</p>
-              <a href="./images/Subway.png" data-gall="portfolioGallery" class="venobox preview-link" title="지하철 관리시스템"><i class="bx bx-plus"></i></a>
+              <a href="./images/Subway1.png" data-gall="portfolioGallery" class="venobox preview-link" title="지하철 관리시스템"><i class="bx bx-plus"></i></a>
               <a href="https://github.com/ithansiyeon/SubwayProject" class="details-link" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-etc">
-            <div class="portfolio-img"><a href="#ecc" class="scroll"><img src="./images/ECC.png" class="img-fluid" alt=""></a></div>
+            <div class="portfolio-img"><a href="#ecc" class="scroll"><img src="./images/ECC1.png" class="img-fluid" alt=""></a></div>
             <div class="portfolio-info">
               <h4>ECC Encryption/Decryption</h4>
               <p>MATLAB</p>
-              <a href="./images/ECC.png" data-gall="portfolioGallery" class="venobox preview-link" title="ECC Encryption/Decryption"><i class="bx bx-plus"></i></a>
+              <a href="./images/ECC1.png" data-gall="portfolioGallery" class="venobox preview-link" title="ECC Encryption/Decryption"><i class="bx bx-plus"></i></a>
               <a href="https://github.com/ithansiyeon/Ecc-Algorithm" class="details-link" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-etc">
-            <div class="portfolio-img"><a href="#decision" class="scroll"><img src="./images/통신부호화.png" class="img-fluid" alt=""></a></div>
+            <div class="portfolio-img"><a href="#decision" class="scroll"><img src="./images/통신부호화1.png" class="img-fluid" alt=""></a></div>
             <div class="portfolio-info">
               <h4>연판정과 경판정 구현</h4>
               <p>Matlab</p>
-              <a href="./images/통신부호화.png" data-gall="portfolioGallery" class="venobox preview-link" title="연판정과 경판정 구현"><i class="bx bx-plus"></i></a>
+              <a href="./images/통신부호화1.png" data-gall="portfolioGallery" class="venobox preview-link" title="연판정과 경판정 구현"><i class="bx bx-plus"></i></a>
               <a href="https://github.com/ithansiyeon/Soft-decision-and-hard-decision" class="details-link" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-java">
-            <div class="portfolio-img"><a href="#chat" class="scroll"><img src="./images/Chat.png" class="img-fluid" alt=""></a></div>
+            <div class="portfolio-img"><a href="#chat" class="scroll"><img src="./images/Chat1.png" class="img-fluid" alt=""></a></div>
             <div class="portfolio-info">
               <h4>채팅 프로그램</h4>
               <p>Java & Android</p>
-              <a href="./images/Chat.png" data-gall="portfolioGallery" class="venobox preview-link" title="채팅 프로그램"><i class="bx bx-plus"></i></a>
+              <a href="./images/Chat1.png" data-gall="portfolioGallery" class="venobox preview-link" title="채팅 프로그램"><i class="bx bx-plus"></i></a>
               <a href="https://github.com/ithansiyeon/Android-chat-app" class="details-link" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><a href="#portfolio1"><img src="./images/포폴.png" class="img-fluid" alt=""></a></div>
+            <div class="portfolio-img"><a href="#portfolio1" class="scroll"><img src="./images/포폴1.png" class="img-fluid" alt=""></a></div>
             <div class="portfolio-info">
               <h4>포트폴리오</h4>
               <p>CSS3 & HTML5 & JAVASCRIPT</p>
-              <a href="./images/포폴.png" data-gall="portfolioGallery" class="venobox preview-link" title="포트폴리오"><i class="bx bx-plus"></i></a>
+              <a href="./images/포폴1.png" data-gall="portfolioGallery" class="venobox preview-link" title="포트폴리오"><i class="bx bx-plus"></i></a>
               <a href="https://github.com/ithansiyeon/Portfolio1" class="details-link" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
             </div>
           </div>
@@ -915,7 +930,7 @@
     </section><!-- End My Portfolio Section -->
 
     <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing">
+    <section id="Summary" class="Summary">
       <div class="container">
 
         <div class="section-title">
@@ -925,7 +940,7 @@
         </div>
   
         <div class="row">
-            <table class = "table table-bordered table-striped table-hover" style="width: 850px; margin: 10px auto;">
+            <table class = "table table-bordered" style="width: 850px; margin: 10px auto;">
               <tr>
                   <th>프로젝트 명 </th>
                   <th><span class = "title" id = "At-Ticket">At-Ticket</span></th>
@@ -942,9 +957,7 @@
               </tr>
                 <tr>
                   <th>프로젝트 개요</th>
-                  <th>티켓 사이트</th>
-                  <th>개발환경&nbsp;</th>
-                  <th>Windows10</th>
+                  <th colspan="3">티켓 사이트</th>
               </tr>
               <tr>
                   <th colspan="5">사용 도구</th>
@@ -967,10 +980,10 @@
               </tr>
           </table>
 
-          <table class = "table table-bordered table-striped table-hover" style="width: 850px; margin: 10px auto;">
+          <table class = "table table-bordered" style="width: 850px; margin: 10px auto;">
             <tr>
                 <th>프로젝트명</th>
-                <th><span id = "portfolio1">Portfolio</span></th>
+                <th><span class = "title" id = "portfolio1">Portfolio</span></th>
                 <th>개발 기간</th>
                 <th>2020.07.22. ~ 2020.08.07.</th>
             </tr>
@@ -1007,7 +1020,7 @@
             </tr>
         </table>
 
-          <table class = "table table-bordered table-striped table-hover" style="width: 850px; margin: 10px auto;">
+          <table class = "table table-bordered" style="width: 850px; margin: 10px auto;">
             <tr>
                 <th width="15%">프로젝트 명 </th>
                 <th><span class = "title" id = "lmsjoo">LMS Joo</span></th>
@@ -1045,7 +1058,7 @@
             </tr>
         </table>
 
-        <table class = "table table-bordered table-striped table-hover" style="width: 850px; margin: 10px auto;">
+        <table class = "table table-bordered" style="width: 850px; margin: 10px auto;">
           <tr>
               <th>프로젝트명</th>
               <th><span class = "title" id = "cms">Center-Management-System</span></th>
@@ -1087,7 +1100,7 @@
           </tr>
       </table>
 
-      <table class = "table table-bordered table-striped table-hover" style="width: 850px; margin: 10px auto;">
+      <table class = "table table-bordered" style="width: 850px; margin: 10px auto;">
         <tr>
             <th style="width: 15%;">프로젝트 명 </th>
             <th><span class = "title" id = "subway">SubwayProject</span></th>
@@ -1125,7 +1138,7 @@
         </tr>
     </table>
           
-        <table class = "table table-bordered table-striped table-hover" style="width: 850px; margin: 10px auto;">
+        <table class = "table table-bordered" style="width: 850px; margin: 10px auto;">
           <tr>
               <th>프로젝트 명 </th>
               <th><span class = "title" id = "decision">경판정과 연판정 프로젝트</span></th>
@@ -1167,7 +1180,7 @@
           </tr>
       </table>
 
-      <table class = "table table-bordered table-striped table-hover" style="width: 850px; margin: 10px auto;">
+      <table class = "table table-bordered" style="width: 850px; margin: 10px auto;">
         <tr>
             <th>프로젝트 명 </th>
             <th><span class = "title" id = "ecc">ECC Algorithm</span></th>
@@ -1209,7 +1222,7 @@
         </tr>
     </table>
     
-    <table class = "table table-bordered table-striped table-hover" style="width: 850px; margin: 10px auto;">
+    <table class = "table table-bordered" style="width: 850px; margin: 10px auto;">
       <tr>
           <th style="width:15%;">프로젝트명</th>
           <th style="width:35%;"><span class = "title" id = "chat">채팅 프로그램</span></th>
@@ -1258,7 +1271,7 @@
     </section><!-- End Pricing Section -->
 
     <!-- ======= Contact Me Section ======= -->
-    <section id="contact" class="contact">
+    <section id="contact" class="contact" style="margin-bottom: 90px;">
       <div class="container">
 
         <div class="section-title">
@@ -1333,7 +1346,6 @@
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
   <script src="assets/vendor/counterup/counterup.min.js"></script>
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
@@ -1347,7 +1359,7 @@
 
         $(".scroll").click(function (event) {
           event.preventDefault();
-          $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+          $('html,body').animate({ scrollTop: $(this.hash).offset().top - $("#header").height()*2 }, 1000);
         });
       });
   </script>
