@@ -1,7 +1,7 @@
 # SIYEON HAN's Portfolio
 
 ### [:arrow_forward: Preview]
-<a href = "https://ithansiyeon.github.io/Portfolio1/">포트포리오 바로가기</a>
+<a href = "https://ithansiyeon.github.io/Portfolio1/">포트리오 바로가기</a>
 
 ![SIYEON HAN's Portfolio](https://user-images.githubusercontent.com/66079830/91710186-d189bd00-ebbe-11ea-872b-685c8ec763d4.png)
 
