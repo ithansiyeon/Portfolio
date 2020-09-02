@@ -73,13 +73,139 @@
   }
 
   .pimg {
-    position: relative;
-    top: -5px;
-    width: 55px;
+    /* position: relative;
+    top: -5px; */
+    /* width: 50px;
+    height: 50px; */
     /* margin-bottom: 10px; */
     display:inline-block;
-    padding-left: 20px
+    margin-left: 30px;
     
+  }
+
+  .line-skill {
+    margin-top: 10px;
+  }
+
+  #front1 {
+    background-image: url("./images/front1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 30px;
+    height: 40px;
+  }
+
+  #front2 {
+    background-image: url("./images/front2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 40px;
+    position: relative;
+    top: -5px;
+  }
+
+  #front3 {
+    background-image: url("./images/front3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 40px;
+  }
+
+  #matlab {
+    background-image: url("./images/matlab.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+  }
+
+  #back1 {
+    background-image: url("./images/back1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 40px;
+    margin-bottom: -10px;
+  }
+
+  #back2 {
+    background-image: url("./images/back2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 40px;
+  }
+
+  #back3 {
+    background-image: url("./images/back3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+  }
+
+  #back4 {
+    background-image: url("./images/back4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 40px;
+  }
+
+  #bootstrap {
+    background-image: url("./images/bootstrap.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 40px;
+    margin-bottom: -10px;
+  }
+
+  #android {
+    background-image: url("./images/android.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 40px;
+  }
+
+  #oracle {
+    background-image: url("./images/oracle.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 40px;
+  }
+
+  #back5 {
+    background-image: url("./images/back5.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  #back6 {
+    position: relative;
+    top: 10px;
+    background-image: url("./images/back6.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 40px;
+  }
+
+  #back5 {
+    position: relative;
+    top: 10px;
+    background-image: url("./images/back5.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 40px;
   }
 
   .pline{
@@ -221,14 +347,14 @@
     <div class="skills-content pl-lg-4" style="float: left;">
       <h3 style="text-align: center;">Front-end</h3>
       <div class="progress">
-        <div class = "pline"><span class="skill">HTML<img class = "pimg" src="./images/front1.png"> <i
+        <div class = "pline"><span class="skill">HTML<div class = "pimg" id = "front1"></div> <i
           class="val">100%</i></span></div>
         <div class="progress-bar-wrap">
           <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
       </div>
       <div class="line-skill">
-        <ul style="margin-top: 20px;">
+        <ul>
           <li>웹 페이지 기본 구조와 작성 방법</li>
         </ul>
         <ul>
@@ -240,14 +366,14 @@
       </div>
       
       <div class="progress">
-        <span class="skill">CSS <img class = "pimg" src="./images/front2.png"><i
+        <span class="skill"><span style="position: relative;top: -10px;">CSS</span> <div class = "pimg" id = "front2"></div><i
           class="val">90%</i></span>
         <div class="progress-bar-wrap">
           <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
       </div>
-      <div class="line-skill">
-        <ul style="margin-top: 9px;">
+      <div style="margin-top: -2px;" class="line-skill">
+        <ul>
           <li>CSS의 기본 문법</li>
         </ul>
         <ul>
@@ -271,13 +397,13 @@
       </div>
       
       <div class="progress">
-        <span class="skill">JavaScript/JQuery <img class = "pimg" src="./images/front3.png"><i class="val">90%</i></span>
+        <span class="skill"><span style="position: relative;top: -10px;">JavaScript/JQuery</span> <div class = "pimg" id = "front3"></div><i class="val">90%</i></span>
         <div class="progress-bar-wrap">
           <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
       </div>
-      <div class="line-skill">
-        <ul style="margin-top: 9px;">
+      <div  style="margin-top: -2px;" class="line-skill">
+        <ul>
           <li>자바스크립트 기본 용어와 출력 방법</li>
         </ul>
         <ul>
@@ -304,14 +430,14 @@
       </div>
       <h3 class = "stitle">기타</h3>
       <div class="progress">
-       <div class = "pline"><span class="skill">Matlab <img style="width: 70px;" class = "pimg" src="./images/matlab.png"><i
+       <div class = "pline"><span class="skill"><span style="position: relative;top: -5px;">Matlab</span> <div class = "pimg" id = "matlab"></div><i
         class="val">80%</i></span></div> 
         <div class="progress-bar-wrap">
           <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
       </div>
       <div class="line-skill">
-        <ul style="margin-top: 10px;">
+        <ul>
           <li>확률 계산</li>
         </ul>
         <ul>
@@ -347,14 +473,14 @@
     <div style="float: left;" class="skills-content pl-lg-4">
       <h3 style="text-align:center;width: 300px;">Back-end</h3>
       <div class="progress">
-        <div class = "pline"><span class="skill">Java <img style="width: 80px;" class = "pimg" src="./images/back1.png"><i
+        <div class = "pline"><span class="skill"><span>Java</span> <div class = "pimg" id = "back1"></div><i
           class="val">100%</i></span></div>
         <div class="progress-bar-wrap">
           <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
       </div>
-      <div class="line-skill">
-        <ul style="margin-top: 10px;">
+      <div style="margin-top: -2px;"  class="line-skill">
+        <ul>
           <li>변수</li>
         </ul>
         <ul>
@@ -396,14 +522,14 @@
       </div>
   
       <div class="progress">
-        <span class="skill">C <img style="width: 70px;" class = "pimg" src="./images/back2.png"><i
+        <span class="skill"><span style="position: relative;top: -13px;">C</span> <div class = "pimg" id = "back2"></div><i
             class="val">80%</i></span>
         <div class="progress-bar-wrap">
           <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
       </div>
-      <div class="line-skill">
-        <ul style="margin-top: 10px;">
+      <div style="margin-top: -2px;" class="line-skill">
+        <ul>
           <li>변수와 연산자</li>
         </ul>
         <ul>
@@ -436,14 +562,14 @@
       </div>
 
       <div class="progress">
-        <div class = "pline"><span class="skill">C++ <img class = "pimg" src="./images/back3.png"><i
+        <div class = "pline"><span class="skill"><span style="position: relative;top: -8px;">C++</span> <div class = "pimg" id = "back3"></div><i
           class="val">80%</i></span></div>
         <div class="progress-bar-wrap">
           <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
       </div>
-      <div class="line-skill">
-        <ul style="margin-top: 10px;">
+      <div style="margin-top: -2px;" class="line-skill">
+        <ul>
           <li>클래스의 기본</li>
         </ul>
         <ul>
@@ -470,14 +596,14 @@
       </div>
 
       <div class="progress">
-        <span class="skill">Python <img style="width: 70px;" class = "pimg" src="./images/back4.png"><i
+        <span class="skill"><span style="position:relative;top: -10px;">Python</span> <div class = "pimg" id = "back4"></div><i
             class="val">60%</i></span>
         <div class="progress-bar-wrap">
           <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
       </div>
-      <div class="line-skill">
-        <ul style="margin-top: 10px;">
+      <div style="margin-top: -1px;"  class="line-skill">
+        <ul>
           <li>RSA 전자서명 구현을 해보았습니다.</li>
         </ul>
         <ul>
@@ -498,7 +624,7 @@
         </ul>
       </div>
       <div class="progress">
-        <div class = "pline"><span class="skill">AJAX <img style="width: 70px;" class = "pimg" src="./images/back6.png"><i style="position: relative;top: -10px;" class="val">100%</i></span></div>
+        <div class = "pline"><span class="skill">AJAX <div class = "pimg" id = "back6"></div><i style="position: relative;top: 5px;" class="val">100%</i></span></div>
         <div class="progress-bar-wrap">
           <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
@@ -521,14 +647,14 @@
     <div style="float: left;" class="skills-content pl-lg-4">
       <h3 style="text-align: center;width: 300px;">Bootstrap</h3>
       <div class="progress">
-        <div class = "pline"><span class="skill">BOOSTRAP <img class = "pimg" src="./images/bootstrap.png"><i
+        <div class = "pline"><span class="skill"><span style="position: relative;top: -7px;">BOOTSTRAP</span> <div class = "pimg" id = "bootstrap"></div><i
           class="val">100%</i></span></div>
         <div class="progress-bar-wrap">
           <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
       </div>
-      <div class="line-skill">
-        <ul  style="margin-top: 9px;">
+      <div style="margin-top: -1px;"  class="line-skill">
+        <ul>
           <li>폼</li>
         </ul>
         <ul>
@@ -557,14 +683,14 @@
         </ul>
       </div>
       <div class="progress">
-        <div class = "pline"><span class="skill">ANDROID <img style="width: 70px;" class = "pimg" src="./images/android.png"><i
+        <div class = "pline"><span class="skill"><span style="position: relative;top: -10px;">ANDROID</span> <div class = "pimg" id = "android"></div><i
           class="val">60%</i></span></div>
         <div class="progress-bar-wrap">
           <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
       </div>
       <div class="line-skill">
-        <ul style="margin-top: 10px;">
+        <ul>
           <li>네트워킹</li>
         </ul>
         <ul>
@@ -576,14 +702,14 @@
       </div>
       <h3 class = "stitle" style="margin-top: 50px; text-align: center;">DataBase</h3>
       <div class="progress">
-        <div class = "pline"><span class="skill">Oracle <img class = "pimg" src="./images/oracle.png"><i
+        <div class = "pline"><span class="skill"><span style="position:relative;top: -12px;">ORACLE</span> <div class = "pimg" id = "oracle"></div><i
           class="val">100%</i></span></div>
         <div class="progress-bar-wrap">
           <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
       </div>
       <div class="line-skill">
-        <ul style="margin-top: 10px;">
+        <ul>
           <li>Oracle을 이용한 스키마 구축</li>
         </ul>
         <ul>
@@ -616,14 +742,14 @@
       </div>
       <h3 class = "stitle">Back-end</h3>
       <div class="progress">
-        <div class = "pline"><span class="skill">JSP/SERVLET <img style="width: 70px;" class = "pimg" style="display:inline-block;padding-left:20px;" src="./images/back5.png"><i
+        <div class = "pline"><span class="skill">JSP/SERVLET <div class = "pimg" id = "back5"></div><i
           class="val">100%</i></span></div>
         <div class="progress-bar-wrap">
           <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
       </div>
       <div class="line-skill">
-        <ul style="margin-top: 10px;">
+        <ul>
           <li>form 태그를 이용해 서블릿 요청</li>
         </ul>
         <ul>
@@ -725,7 +851,7 @@
         <div class="row portfolio-container">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-java">
-            <div class="portfolio-img"><a class="scroll" href = "#cms"><img src="./images/포트폴리오11.png" class="img-fluid" alt=""></a></div>
+            <div class="portfolio-img"><a class="scroll" href = "#cms"><img src="./images/포트폴리오11.png"  class="img-fluid"></a></div>
             <div class="portfolio-info">
               <h4>학원 회원 관리 프로그램</h4>
               <p>JAVA</p>
@@ -958,9 +1084,7 @@
           </tr>
             <tr>
               <th>프로젝트 개요</th>
-              <th> 학원 회원 관리 프로그램</th>
-              <th>개발 환경</th>
-              <th>Windows10</th>
+              <th colspan="3"> 학원 회원 관리 프로그램</th>
           </tr>
           <tr>
               <th colspan="5">사용 도구</th>
