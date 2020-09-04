@@ -57,7 +57,7 @@ Git Pages와 HTML5, CSS3, JavaScript를 이용한 싱글페이지 포트폴리�
     </tr>
     <tr>
         <td><img width="300" height="250" src="https://user-images.githubusercontent.com/66079830/92146504-cb147300-ee54-11ea-8756-94006ec66f5b.png"></td>
-        <td><img width="300" height="250" src="https://user-images.githubusercontent.com/66079830/92146554-db2c5280-ee54-11ea-9dd4-1ed720b801f6.png"></td>
+        <td><img width="300" height="250" src="https://user-images.githubusercontent.com/66079830/92147982-d49eda80-ee56-11ea-8a1f-27188cc1d9d5.png"></td>
         <td><img width="300" height="250" src="https://user-images.githubusercontent.com/66079830/91707951-8b7f2a00-ebbb-11ea-8012-22b05f67a4b3.png"></td>
     </tr>
         <tr>
