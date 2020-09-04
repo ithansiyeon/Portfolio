@@ -33,11 +33,11 @@
     </tr>
     <tr>
         <th>형상관리</th>
-        <th colspan="3">Github, Git Bash, Source Tree</th>
+        <th colspan="3">Github, Git, Source Tree</th>
     </tr>
     <tr>
         <th>개발도구</th>
-        <th colspan="3">Visual Studio Code, Github Pages, Balsamiq</th>
+        <th colspan="3">Visual Studio Code, Github Pages</th>
     </tr>
     <tr>
         <th>사용기술</th>
