@@ -41,7 +41,7 @@
     </tr>
     <tr>
         <th>사용기술</th>
-        <th colspan="3">jQuery, Bootstrap, Media Query</th>
+        <th colspan="3">HTML5, CSS3 jQuery, Bootstrap /th>
     </tr>
 </table>
 
