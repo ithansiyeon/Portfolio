@@ -3,7 +3,7 @@
 ![SIYEON HAN's Portfolio](https://user-images.githubusercontent.com/66079830/91710186-d189bd00-ebbe-11ea-872b-685c8ec763d4.png)
 
 ### [:arrow_forward: Preview]
-<a href = "https://ithansiyeon.github.io/Portfolio1/">포트폴리오 바로가기</a>
+<a href = "https://ithansiyeon.github.io/portfolio1/">포트폴리오 바로가기</a>
 
 ### 👋 Introduction
 
